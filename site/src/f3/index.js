@@ -29,7 +29,7 @@ export default function Funcao3(){
             <input type='number' value={peso} onChange={e=>setPeso(e.target.value)}/>
             <br/>
             <hr/>
-            <span>  {resultado}</span>
+            <span>  {resultado} </span>
         </section>
     );
 }
