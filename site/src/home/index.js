@@ -8,6 +8,9 @@ export default function Home(){
             <div className='sla'>
             <hr/>
             <h1 className='t'>HOME</h1>
+            <span>NOME: Matheus Servulo Cajé INFO B</span>
+            <p>NOME: Juliana Fatima INFO B</p>
+            
             <hr/>
             <div className='principal'>
             <Link to='/f1'>FUNÇÃO 1</Link>
