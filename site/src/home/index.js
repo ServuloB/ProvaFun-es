@@ -5,11 +5,11 @@ import '../common/common.scss'
 export default function Home(){
     return(
         <section className='home'>
+             <span>NOME: Matheus Servulo Cajé INFO B</span>
+            <p>NOME: Juliana Fatima INFO B</p>
             <div className='sla'>
             <hr/>
             <h1 className='t'>HOME</h1>
-            <span>NOME: Matheus Servulo Cajé INFO B</span>
-            <p>NOME: Juliana Fatima INFO B</p>
             
             <hr/>
             <div className='principal'>
