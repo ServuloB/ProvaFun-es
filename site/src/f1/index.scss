@@ -1,0 +1,49 @@
+.funcoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-family: 'f1';
+    font-size: 2em;
+}
+
+p{
+    color: white;
+    font-family: 'f1';
+}
+
+span{
+    color: white;
+    font-family: 'f1';
+}
+
+input{
+    background-color: inherit;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    height: 1.3em;
+    color: white;
+    font-family: 'f1';
+}
+
+a{
+    margin-top: 1em;
+    text-decoration: none;
+    font-family: 'f1';
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+hr{
+    width: 20em;
+}
+
+a:hover{
+    color: purple;
+}

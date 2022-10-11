@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-
-
+import { Link } from "react-router-dom";
+import './index.scss'
 
 export default function Acai(){
     const [pequena, setPequena] = useState(0);
@@ -24,7 +24,7 @@ export default function Acai(){
     },[pequena, desconto,grande,media])
 
     return(
-        <section>
+        <section className='funcoes'>
             <h1> FUNÇÃO AÇAÍ</h1>
             <p>QUANTIDADES DE PEQUENAS:</p>
             <input type='number' value={pequena} onChange={e=>setPequena(e.target.value)}/>
@@ -37,6 +37,9 @@ export default function Acai(){
             <br/>
             <hr/>
             <span>O TOTAL A PAGAR É {total}</span>
+
+            <br/>
+            <Link to='/'>VOLTAR</Link>
         </section>
     );
 }

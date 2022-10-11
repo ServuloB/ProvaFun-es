@@ -1,4 +1,6 @@
+import './index.scss'
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Funcao3(){
     
@@ -23,13 +25,16 @@ export default function Funcao3(){
 
 
     return (
-        <section>
+        <section className='funcoes'>
             <h1>FUNÇÃO SORVETERIA</h1>
             <p>TOTAL DE GRAMAS</p>
             <input type='number' value={peso} onChange={e=>setPeso(e.target.value)}/>
             <br/>
             <hr/>
             <span>  {resultado} </span>
+
+            <br/>
+            <Link to='/'>VOLTAR</Link>
         </section>
     );
 }

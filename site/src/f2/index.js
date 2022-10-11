@@ -1,4 +1,6 @@
+import './index.scss'
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Funcao2(){
     const [mes, setMes] = useState("");
@@ -21,7 +23,7 @@ export default function Funcao2(){
     },[mes,dia])
 
     return (
-        <section>
+        <section className='funcoes'>
             <h1>FUNÇÃO SIGNO LIBRA</h1>
             <p>MÊS</p>
             <input type='text' value={mes} onChange={e=>setMes(e.target.value)}/>
@@ -30,6 +32,9 @@ export default function Funcao2(){
             <br/>
             <hr/>
             <span> VOCÊ É DE LIBRA? {resultado? "Sim" : "Não"}</span>
+
+            <br/>
+            <Link to='/'>VOLTAR</Link>
         </section>
     );
 }

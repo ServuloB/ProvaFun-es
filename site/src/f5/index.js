@@ -12,7 +12,7 @@ export default function Funcao5(){
             <input type='number'/>
             <br/>
             <hr/>
-            <span> Você precisará fazer {resultado} para abastecer </span>
+            <span> Você precisará fazer {} para abastecer </span>
         </section>
     );
 }  

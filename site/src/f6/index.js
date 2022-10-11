@@ -1,4 +1,6 @@
+import './index.scss'
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Funcao3(){
     const [situacao, setSituacao] = useState(0);
@@ -28,13 +30,16 @@ export default function Funcao3(){
     },[situacao])
 
     return(
-        <section>
+        <section className='funcoes'>
             <h1>SITUAÇÃO DA FEBRE </h1>
             <p>TEMPERATURA </p>
             <input type='number' value={situacao} onChange={e=>setSituacao(e.target.value)}/>
             <br/>
             <hr/>
             <span> A situacao para sua temperatura é {resultado} </span>
+
+            <br/>
+            <Link to='/'>VOLTAR</Link>
         </section>
     );
 }

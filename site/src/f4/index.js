@@ -1,6 +1,6 @@
+import './index.scss'
 import { useEffect, useState } from "react";
-
-
+import { Link } from "react-router-dom";
 
 export default function Salario(){
     const [salario, setSalario] = useState(0);
@@ -19,17 +19,20 @@ export default function Salario(){
     },[salario, desconto,bonus])
 
     return(
-        <section>
-            <h1> Descubra o seu salario  </h1>
-            <p>Salário Base:</p>
+        <section className='funcoes'>
+            <h1> DESCUBRA SEU SALÁRIO  </h1>
+            <p>SALÁRIO BASE</p>
             <input type='number' value={salario} onChange={e=>setSalario(e.target.value)}/>
-            <p>Bonus mensal:</p>
+            <p>BÔNUS MENSAL</p>
             <input type='number' value={bonus} onChange={e=>setBonus(e.target.value)}/>
-            <p>descontos</p>
+            <p>DESCONTOS</p>
             <input type='number'value={desconto} onChange={e=>setDesconto(e.target.value)}/>
             <br/>
             <hr/>
-            <span>Seu salário liquido é de R${total}</span>
+            <span>Seu salário liquido é de R${total}</span> 
+            
+            <br/>
+            <Link to='/'>VOLTAR</Link>
         </section>
     );
 }
