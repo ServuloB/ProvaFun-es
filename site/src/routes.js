@@ -6,6 +6,7 @@ import Funcao5 from './f5'
 import Funcao4 from './f4'
 import Funcao6 from './f6'
 import Funcao8 from './f8'
+import Funcao7 from './f7'
 import Home from './home'
 
 export default function Rotas(){
@@ -20,6 +21,7 @@ return(
     <Route path='/f4' element={<Funcao4/>}/>
     <Route path='/f6' element={<Funcao6/>}/>
     <Route path='/f8' element={<Funcao8/>}/>
+    <Route path='/f7' element={<Funcao7/>}/>
   </Routes>
   </BrowserRouter>
  );
