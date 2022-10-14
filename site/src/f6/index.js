@@ -2,7 +2,7 @@ import './index.scss'
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function Funcao3(){
+export default function Funcao6(){
     const [situacao, setSituacao] = useState(0);
     const [resultado, setResultado] = useState("");
 
