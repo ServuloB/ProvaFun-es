@@ -21,6 +21,9 @@ export default function Home(){
             <Link to='/f6'>FUNÇÃO 6</Link>
             <Link to='/f7'>FUNÇÃO 7</Link>
             <Link to='/f8'>FUNÇÃO 8</Link>
+            <Link to='/f9'>FUNÇÃO 9</Link>
+            <Link to='/f10'>FUNÇÃO 10</Link>
+            <Link to='/f11'>FUNÇÃO 11</Link>
             </div>
             </div>
         </section>

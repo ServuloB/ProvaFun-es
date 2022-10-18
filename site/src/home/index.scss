@@ -46,7 +46,8 @@ a:hover{
 }
 
 body{
-    background-image: url('../../public/images/back.jpg');
+    background-image: url('../../public/images/back.jpg'), linear-gradient(to bottom , rgb(124, 7, 160), rgb(13, 141, 180));
     background-blend-mode: lighten;
-    background-color: rgb(0, 0, 0) ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
