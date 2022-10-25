@@ -12,6 +12,7 @@ import Funcao10 from './f10'
 import Funcao11 from './f11'
 import Funcao12 from './f12'
 import Funcao13 from './f13'
+import Velha from './velha'
 import Home from './home'
 
 export default function Rotas(){
@@ -31,7 +32,11 @@ return(
     <Route path='/f10' element={<Funcao10/>}/>
     <Route path='/f11' element={<Funcao11/>}/>
     <Route path='/f12' element={<Funcao12/>}/>
+<<<<<<< HEAD
     <Route path='/f13' element={<Funcao13/>}/>
+=======
+    <Route path='/velha' element={<Velha/>}/>
+>>>>>>> 02d451a8f7b6801943b56cea7b5d02f7df6e18b3
   </Routes>
   </BrowserRouter>
  );

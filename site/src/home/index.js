@@ -26,6 +26,7 @@ export default function Home(){
             <Link to='/f11'>FUNÇÃO 11</Link>
             <Link to='/f12'>FUNÇÃO 12</Link>
             <Link to='/f13'>FUNÇÃO 13</Link>
+            <Link to='/velha'>JOGO DA VELHA</Link>
             </div>
             </div>
         </section>
