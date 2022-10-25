@@ -32,11 +32,8 @@ return(
     <Route path='/f10' element={<Funcao10/>}/>
     <Route path='/f11' element={<Funcao11/>}/>
     <Route path='/f12' element={<Funcao12/>}/>
-<<<<<<< HEAD
     <Route path='/f13' element={<Funcao13/>}/>
-=======
     <Route path='/velha' element={<Velha/>}/>
->>>>>>> 02d451a8f7b6801943b56cea7b5d02f7df6e18b3
   </Routes>
   </BrowserRouter>
  );
